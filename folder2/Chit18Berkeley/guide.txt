@@ -1,0 +1,38 @@
+The Berkeley Algorithm is a clock synchronization method used in distributed systems where one machine acts as the coordinator and synchronizes the clocks of other client machines.
+
+Steps:
+=====
+Coordinator sends a time request to all clients.
+
+Each client responds with its local time.
+
+The coordinator calculates the average time from all the clocks, including its own.
+
+The coordinator sends back the adjustment needed for each client's clock.
+
+Clients adjust their clocks to the average time.
+
+Key Points:
+==========
+Centralized synchronization (one coordinator).
+
+Clients synchronize relative to each other, not absolute time.
+
+Simple and flexible, but the coordinator's failure affects the system.
+
+It works well in small networks where precise global time isn't available.
+
+
+
+Coordinator Output: Shows when it sends the synchronized time to each client.
+Client Output: Shows the client's local clock before synchronization and the clock after receiving the synchronized time from the coordinator.
+
+
+javac BerkeleyCoordinator.java
+javac BerkeleyClient.java
+
+java BerkeleyCoordinator
+
+java BerkeleyClient
+
+

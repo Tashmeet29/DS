@@ -1,0 +1,25 @@
+You will create 4 files:
+
+
+File Name				Purpose
+StringReverse.idl		IDL (Interface) file
+StringReverseImpl.java		Server implementation
+StringReverseServer.java	Server setup
+StringReverseClient.java	Client
+
+Compile IDL:
+idlj -fall StringReverse.idl
+
+Move StringReverseImpl.java in ReverseModule folder
+
+Compile all Java files:
+javac ReverseModule/*.java *.java
+
+Start Name Service:
+tnameserv -ORBInitialPort 1050
+
+Run Server (on Server machine):
+java StringReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Run Client (on Client machine):
+java StringReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost

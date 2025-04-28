@@ -1,0 +1,7 @@
+// CaseChange.idl
+module CaseChangeModule {
+    interface StringOperations {
+        string toUpperCase(in string input);
+    };
+};
+
