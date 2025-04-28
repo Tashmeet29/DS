@@ -1,0 +1,1 @@
+autoconfig.thunderbird.net:HSTS	0	20206	1777394701692,1,0,2

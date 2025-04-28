@@ -1,0 +1,7 @@
+# This file is created by ibus-daemon, please do not modify it.
+# This file allows processes on the machine to find the
+# ibus session bus with the below address.
+# If the IBUS_ADDRESS environment variable is set, it will
+# be used rather than this file.
+IBUS_ADDRESS=unix:abstract=/home/codehora/.cache/ibus/dbus-31REOtLY,guid=a3dca17460edb88c9e0b84b2680f73f6
+IBUS_DAEMON_PID=4837
