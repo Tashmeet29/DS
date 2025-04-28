@@ -5,9 +5,9 @@
     <application id="org.gnome.Nautilus.desktop" score="418" last-seen="1745860507"/>
     <application id="gnome-initial-setup.desktop" score="10" last-seen="1745422805"/>
     <application id="thunderbird.desktop" score="0" last-seen="1745858704"/>
-    <application id="org.gnome.Terminal.desktop" score="1697" last-seen="1745860267"/>
+    <application id="org.gnome.Terminal.desktop" score="1875" last-seen="1745861765"/>
     <application id="org.gnome.gedit.desktop" score="3008" last-seen="1745860510"/>
-    <application id="firefox.desktop" score="49" last-seen="1745860188"/>
+    <application id="firefox.desktop" score="50" last-seen="1745861774"/>
     <application id="yelp.desktop" score="0" last-seen="1745751122"/>
     <application id="gnome-control-center.desktop" score="15" last-seen="1745593733"/>
     <application id="update-manager.desktop" score="0" last-seen="1745497997"/>
